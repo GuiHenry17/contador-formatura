@@ -1,0 +1,32 @@
+.countdown {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+.timeGrid {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.timeCard {
+  padding: 12px 18px;
+  border-radius: 10px;
+  min-width: 84px;
+  text-align: center;
+}
+.timeValue {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.timeLabel {
+  font-size: 0.85rem;
+}
+
+
+@media (max-width: 600px) {
+  .timeCard {
+    min-width: 64px;
+    padding: 10px;
+  }
+}

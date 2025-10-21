@@ -1,0 +1,61 @@
+.body {
+  background-color: lightgoldenrodyellow;
+  font-family: Roboto
+}
+
+.container {
+  max-width: 920px;
+  margin: 28px auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.titleArea h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+.turma {
+  margin: 4px 0 0;
+}
+.heroImage {
+  opacity: 0.95;
+}
+
+.card {
+  margin-top: 22px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.01)
+  );
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+}
+
+.footer {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.finished {
+  text-align: center;
+}
+.afterText {
+  margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 12px;
+  }
+  .titleArea h1 {
+    font-size: 1.2rem;
+  }
+}
